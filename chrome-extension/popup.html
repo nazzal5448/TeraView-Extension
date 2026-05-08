@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TeraView</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">TeraLinks</div>
+      <div class="subtitle">Preview public TeraBox links instantly</div>
+    </div>
+    
+    <div class="input-group">
+      <input type="text" id="linkInput" placeholder="Paste TeraBox link..." autocomplete="off" spellcheck="false">
+      <button id="previewBtn">Preview</button>
+    </div>
+    
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <span>Fetching preview...</span>
+    </div>
+    
+    <div id="errorMsg" class="hidden error-msg">
+      ❌ <span id="errorText">Invalid TeraBox link</span>
+    </div>
+    
+    <div id="resultCard" class="hidden card">
+      <div class="img-wrapper" id="imgWrapper">
+        <img id="previewImg" src="" alt="Thumbnail">
+      </div>
+      <div class="card-content">
+        <div class="source-label">Public TeraBox Link</div>
+        <div id="previewTitle" class="title"></div>
+        <button id="openBtn" class="primary-btn">Open in TeraBox</button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
