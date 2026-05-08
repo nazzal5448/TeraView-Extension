@@ -15,3 +15,8 @@ A lightweight utility for previewing public TeraBox share links before opening t
 - Clean, minimal, modern UI
 - Strictly follows Manifest V3 guidelines
 - Available on [Chrome Store](https://chromewebstore.google.com/detail/teraview-terabox-link-pre/mmhdielfannlfdciinbadnfefhilhaod), [Firefox Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/teraview-terabox-link-preview/) and Edge Addons.
+
+## Maintainers:
+
+This project is actively maintained by:
+https://teraboxapks.org/
